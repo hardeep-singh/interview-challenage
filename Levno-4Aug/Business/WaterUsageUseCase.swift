@@ -10,8 +10,8 @@ import Foundation
 public struct WaterUsageResult {
     let date: Date
     let dailyUsage: Int
-    let overnightUsages: Int
-    let overNightLeak: Bool
+    let overnightUsage: Int
+    let overnightLeak: Bool
 }
 
 public typealias MeterId = Int

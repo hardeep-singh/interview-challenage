@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "9EDC05A5-5761-4CBF-A3C3-AF73A97353F4",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Levno-4Aug.xcodeproj",
+        "identifier" : "8AB78EBC2E40249F00C16FCF",
+        "name" : "Levno-4AugUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

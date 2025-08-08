@@ -6,7 +6,7 @@
 //
 
 
-protocol WaterUsageRepostiroy {
+protocol WaterUsageRepository {
     
     func fetchWaterUsage(id: MeterId) throws  -> [WaterUsage]
     

@@ -17,6 +17,7 @@
 		8AB78EEA2E408D6700C16FCF /* WaterUsageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB78EE92E408D5F00C16FCF /* WaterUsageViewModel.swift */; };
 		8AB78F502E408FFB00C16FCF /* WaterUsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB78F4F2E408FF400C16FCF /* WaterUsageView.swift */; };
 		8AB78F522E4099A900C16FCF /* WaterUsageUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB78F512E40994300C16FCF /* WaterUsageUseCase.swift */; };
+		8AD898DB2E45B1A5007361F3 /* BusinessAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD898DA2E45B19E007361F3 /* BusinessAnalytics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +28,12 @@
 			remoteGlobalIDString = 8AB78EA52E40249D00C16FCF;
 			remoteInfo = "Levno-4Aug";
 		};
-		8AB78EBE2E40249F00C16FCF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AB78E9E2E40249D00C16FCF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8AB78EA52E40249D00C16FCF;
-			remoteInfo = "Levno-4Aug";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A669DF62E45CEC600FDADB1 /* Levno-4Aug.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Levno-4Aug.xctestplan"; path = "../Levno-4Aug.xctestplan"; sourceTree = "<group>"; };
 		8AB78EA62E40249D00C16FCF /* Levno-4Aug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Levno-4Aug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB78EB32E40249F00C16FCF /* Levno-4AugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Levno-4AugTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AB78EBD2E40249F00C16FCF /* Levno-4AugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Levno-4AugUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB78ED02E4024D000C16FCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AB78ED12E4024D000C16FCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8AB78ED22E4024D000C16FCF /* Levno_4AugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levno_4AugApp.swift; sourceTree = "<group>"; };
@@ -50,17 +44,13 @@
 		8AB78EE92E408D5F00C16FCF /* WaterUsageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterUsageViewModel.swift; sourceTree = "<group>"; };
 		8AB78F4F2E408FF400C16FCF /* WaterUsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterUsageView.swift; sourceTree = "<group>"; };
 		8AB78F512E40994300C16FCF /* WaterUsageUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterUsageUseCase.swift; sourceTree = "<group>"; };
+		8AD898DA2E45B19E007361F3 /* BusinessAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessAnalytics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8AB78EB62E40249F00C16FCF /* Levno-4AugTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Levno-4AugTests";
-			sourceTree = "<group>";
-		};
-		8AB78EC02E40249F00C16FCF /* Levno-4AugUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Levno-4AugUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -80,22 +70,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AB78EBA2E40249F00C16FCF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		8AB78E9D2E40249D00C16FCF = {
 			isa = PBXGroup;
 			children = (
+				8A669DF62E45CEC600FDADB1 /* Levno-4Aug.xctestplan */,
 				8AB78ED32E4024D000C16FCF /* Levno-4Aug */,
 				8AB78EB62E40249F00C16FCF /* Levno-4AugTests */,
-				8AB78EC02E40249F00C16FCF /* Levno-4AugUITests */,
 				8AB78EA72E40249D00C16FCF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,7 +88,6 @@
 			children = (
 				8AB78EA62E40249D00C16FCF /* Levno-4Aug.app */,
 				8AB78EB32E40249F00C16FCF /* Levno-4AugTests.xctest */,
-				8AB78EBD2E40249F00C16FCF /* Levno-4AugUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +95,7 @@
 		8AB78ED32E4024D000C16FCF /* Levno-4Aug */ = {
 			isa = PBXGroup;
 			children = (
+				8AD898D92E45B197007361F3 /* Analytics */,
 				8AB78ED72E4024D400C16FCF /* Business */,
 				8AB78EE02E40866C00C16FCF /* Data */,
 				8AB78EE82E408D3100C16FCF /* UI */,
@@ -167,6 +150,14 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		8AD898D92E45B197007361F3 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				8AD898DA2E45B19E007361F3 /* BusinessAnalytics.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,29 +203,6 @@
 			productReference = 8AB78EB32E40249F00C16FCF /* Levno-4AugTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8AB78EBC2E40249F00C16FCF /* Levno-4AugUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8AB78ECD2E40249F00C16FCF /* Build configuration list for PBXNativeTarget "Levno-4AugUITests" */;
-			buildPhases = (
-				8AB78EB92E40249F00C16FCF /* Sources */,
-				8AB78EBA2E40249F00C16FCF /* Frameworks */,
-				8AB78EBB2E40249F00C16FCF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8AB78EBF2E40249F00C16FCF /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8AB78EC02E40249F00C16FCF /* Levno-4AugUITests */,
-			);
-			name = "Levno-4AugUITests";
-			packageProductDependencies = (
-			);
-			productName = "Levno-4AugUITests";
-			productReference = 8AB78EBD2E40249F00C16FCF /* Levno-4AugUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -249,10 +217,6 @@
 						CreatedOnToolsVersion = 16.4;
 					};
 					8AB78EB22E40249F00C16FCF = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 8AB78EA52E40249D00C16FCF;
-					};
-					8AB78EBC2E40249F00C16FCF = {
 						CreatedOnToolsVersion = 16.4;
 						TestTargetID = 8AB78EA52E40249D00C16FCF;
 					};
@@ -274,7 +238,6 @@
 			targets = (
 				8AB78EA52E40249D00C16FCF /* Levno-4Aug */,
 				8AB78EB22E40249F00C16FCF /* Levno-4AugTests */,
-				8AB78EBC2E40249F00C16FCF /* Levno-4AugUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,13 +252,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8AB78EB12E40249F00C16FCF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8AB78EBB2E40249F00C16FCF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -317,18 +273,12 @@
 				8AB78ED42E4024D000C16FCF /* ContentView.swift in Sources */,
 				8AB78EE42E40868700C16FCF /* WaterUsageRepository.swift in Sources */,
 				8AB78EDD2E4069B300C16FCF /* WaterUsageRepostiroyInterface.swift in Sources */,
+				8AD898DB2E45B1A5007361F3 /* BusinessAnalytics.swift in Sources */,
 				8AB78ED52E4024D000C16FCF /* Levno_4AugApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8AB78EAF2E40249F00C16FCF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8AB78EB92E40249F00C16FCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -342,11 +292,6 @@
 			isa = PBXTargetDependency;
 			target = 8AB78EA52E40249D00C16FCF /* Levno-4Aug */;
 			targetProxy = 8AB78EB42E40249F00C16FCF /* PBXContainerItemProxy */;
-		};
-		8AB78EBF2E40249F00C16FCF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8AB78EA52E40249D00C16FCF /* Levno-4Aug */;
-			targetProxy = 8AB78EBE2E40249F00C16FCF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -566,40 +511,6 @@
 			};
 			name = Release;
 		};
-		8AB78ECE2E40249F00C16FCF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CHGQBDZ4BK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hardeep.Levno-4AugUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Levno-4Aug";
-			};
-			name = Debug;
-		};
-		8AB78ECF2E40249F00C16FCF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CHGQBDZ4BK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hardeep.Levno-4AugUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Levno-4Aug";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -626,15 +537,6 @@
 			buildConfigurations = (
 				8AB78ECB2E40249F00C16FCF /* Debug */,
 				8AB78ECC2E40249F00C16FCF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8AB78ECD2E40249F00C16FCF /* Build configuration list for PBXNativeTarget "Levno-4AugUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8AB78ECE2E40249F00C16FCF /* Debug */,
-				8AB78ECF2E40249F00C16FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

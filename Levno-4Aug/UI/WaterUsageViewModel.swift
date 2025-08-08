@@ -48,8 +48,8 @@ extension WaterUsageViewModel {
         return list.map { UIOWaterUsage(id: UUID(),
                                         date: dateFormater.string(from: $0.date),
                                         dailyUsage: $0.dailyUsage,
-                                        overnightUsages: $0.overnightUsages,
-                                        overNightLeak: $0.overNightLeak) }
+                                        overnightUsages: $0.overnightUsage,
+                                        overNightLeak: $0.overnightLeak) }
     }
     
 }

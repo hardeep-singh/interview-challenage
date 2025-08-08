@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "A7E85515-8B7D-4211-8A2A-93B03CC4A119",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Levno-4Aug.xcodeproj",
+      "identifier" : "8AB78EA52E40249D00C16FCF",
+      "name" : "Levno-4Aug"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:Levno-4Aug.xcodeproj",
+        "identifier" : "8AB78EB22E40249F00C16FCF",
+        "name" : "Levno-4AugTests"
+      }
+    },
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:Levno-4Aug.xcodeproj",
+        "identifier" : "8AB78EBC2E40249F00C16FCF",
+        "name" : "Levno-4AugUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

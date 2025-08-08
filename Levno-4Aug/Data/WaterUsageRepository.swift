@@ -12,7 +12,7 @@ enum AppError: Error {
     case jsonSerializationError
 }
 
-class WaterUsageRepositoryImp: WaterUsageRepostiroy {
+class WaterUsageRepositoryImp: WaterUsageRepository {
     
     let apiService: HTTPClient
     

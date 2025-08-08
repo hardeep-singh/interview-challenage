@@ -15,6 +15,7 @@ struct WaterUsageView: View {
     var body: some View {
         List(viewModel.list) { date in
             WaterUsageRowView(usage: date)
+                .listRowSeparator(.hidden)
         }
         .listStyle(.plain)
         .onAppear {
@@ -31,11 +32,11 @@ struct WaterUsageView: View {
 
 struct WaterUsageRowView: View {
     let usage: UIOWaterUsage
-
+    
     var body: some View {
         VStack(spacing: 0) {
             
-            if usage.overNightLeak {
+            if !usage.overNightLeak {
                 HStack {
                     Text("Possible leak detected on this day")
                         .font(.headline)
@@ -44,40 +45,42 @@ struct WaterUsageRowView: View {
                         .padding()
                 }
                 .frame(maxWidth: .infinity, maxHeight: 30)
-                .background(Color.red)
+                .background(Color.red.opacity(0.8))
             }
-
+            
             Text(usage.date)
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .frame(maxWidth: .infinity, alignment: .leading)
+                .foregroundColor(Color.blue.opacity(0.8))
                 .padding(.horizontal, 16)
                 .padding(.top, 16)
-
+            
             VStack(spacing: 5) {
                 HStack(alignment: .top) {
                     Text("Daily Usage:")
                         .font(.title)
                         .fontWeight(.regular)
-                        .foregroundColor(.black)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-
+                        .foregroundColor(Color.black.opacity(0.8))                        .frame(maxWidth: .infinity, alignment: .leading)
+                    
                     Text("\(usage.dailyUsage)")
                         .font(.title)
                         .fontWeight(.bold)
+                        .foregroundColor(Color.black.opacity(0.8))
                         .frame(alignment: .leading)
                 }
-
+                
                 HStack(alignment: .top) {
                     Text("Overnight Usage:")
                         .font(.title)
                         .fontWeight(.regular)
-                        .foregroundColor(.black)
+                        .foregroundColor(Color.black.opacity(0.8))
                         .frame(maxWidth: .infinity, alignment: .leading)
-
+                    
                     Text("\(usage.overnightUsages)")
                         .font(.title)
                         .fontWeight(.bold)
+                        .foregroundColor(Color.black.opacity(0.8))
                         .frame( alignment: .leading)
                 }
             }
